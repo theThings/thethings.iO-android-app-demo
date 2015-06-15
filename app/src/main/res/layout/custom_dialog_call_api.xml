@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/paddingButton">
+
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearButtons"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        >
+
+        <Button
+            android:id="@+id/buttonRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/defaultMargin"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            style="@style/btnStyleYellow"
+            android:textSize="@dimen/textdimen"
+            android:text="@string/register" />
+
+        <Button
+            android:id="@+id/buttonLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/defaultMargin"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            style="@style/btnStyleYellow"
+            android:textSize="@dimen/textdimen"
+            android:text="@string/login" />
+
+        <Button
+            android:id="@+id/buttonLinkThing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/defaultMargin"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            style="@style/btnStyleYellow"
+            android:textSize="@dimen/textdimen"
+            android:text="@string/linkThing" />
+        <Button
+            android:id="@+id/buttonGetResources"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/defaultMargin"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            style="@style/btnStyleYellow"
+            android:textSize="@dimen/textdimen"
+            android:text="@string/getResources" />
+
+        <Button
+            android:id="@+id/buttonActivateCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/defaultMargin"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            style="@style/btnStyleYellow"
+            android:textSize="@dimen/textdimen"
+            android:text="@string/activateThing" />
+
+        <Button
+            android:id="@+id/buttonPostValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/defaultMargin"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            style="@style/btnStyleYellow"
+            android:textSize="@dimen/textdimen"
+            android:text="@string/postValue" />
+
+        <Button
+            android:id="@+id/buttonGetResource"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/defaultMargin"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            style="@style/btnStyleYellow"
+            android:textSize="@dimen/textdimen"
+            android:text="@string/getValue" />
+
+
+
+    </LinearLayout>
+ 
+</RelativeLayout>
+</ScrollView>

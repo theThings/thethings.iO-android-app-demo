@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ThethingsIO</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="appId">App ID</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="account_login">Account setup</string>
+    <string name="call_api">Api calls</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="link_thing">Link thing</string>
+    <string name="post_resource">Post resource</string>
+    <string name="get_resource">Get resource</string>
+    <string name="connecting">Connecting server</string>
+    <string name="linkThing">Link thing</string>
+    <string name="thingToken">Thing Token</string>
+    <string name="getResources">Get resources</string>
+    <string name="activateThing">Activate thing</string>
+    <string name="postValue">Post value</string>
+    <string name="getValue">Get value</string>
+    <string name="key">Key</string>
+    <string name="value">Value</string>
+    <string name="activation_code">Activation code</string>
+    <string name="resource">Resource</string>
+
+
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/paddingButton">
+
+    <EditText
+        android:id="@+id/editTextKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textdimen"
+        android:layout_marginTop="@dimen/paddingButton"
+        android:gravity="center"
+        android:maxLength="50"
+        android:textColor="@android:color/black"
+        android:hint="@string/key" />
+
+    <EditText
+        android:id="@+id/editTextValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textdimen"
+        android:layout_marginTop="@dimen/paddingButton"
+        android:gravity="center"
+        android:layout_below="@+id/editTextKey"
+        android:maxLength="50"
+        android:textColor="@android:color/black"
+        android:hint="@string/value" />
+
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearButtons"
+        android:orientation="horizontal"
+        android:layout_below="@+id/editTextValue"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        >
+        <Button
+            android:id="@+id/dialogButtonOK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/paddingButton"
+            android:gravity="center"
+            style="@style/btnStyleYellow"
+            android:textSize="@dimen/textdimen"
+            android:text="@string/ok" />
+
+        <Button
+            android:id="@+id/dialogButtonCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/paddingButton"
+            android:gravity="center"
+            style="@style/btnStyleYellow"
+            android:textSize="@dimen/textdimen"
+            android:text="@string/cancel" />
+
+    </LinearLayout>
+ 
+</RelativeLayout>
+</ScrollView>
